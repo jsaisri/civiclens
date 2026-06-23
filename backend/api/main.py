@@ -4,6 +4,8 @@ CivicLens — FastAPI Backend Entry Point
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.api.routes import upload
+
 app = FastAPI(
     title="CivicLens API",
     description="Nonprofit Data Analytics Assistant powered by Claude",
@@ -29,8 +31,5 @@ def health_check():
     return {"status": "ok"}
 
 
-# TODO: Register routers
-# from backend.api.routes import upload, query, report
-# app.include_router(upload.router, prefix="/api/upload", tags=["upload"])
-# app.include_router(query.router, prefix="/api/query", tags=["query"])
-# app.include_router(report.router, prefix="/api/report", tags=["report"])
+# Registered routers
+app.include_router(upload.router, prefix="/api", tags=["upload"])
