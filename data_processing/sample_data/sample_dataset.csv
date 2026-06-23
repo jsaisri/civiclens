@@ -1,0 +1,31 @@
+date,location,program_type,clients_served,meals_distributed,inventory_lbs,volunteer_hours,zip_code,notes
+2024-01-08,Downtown Hub,Emergency Food Box,145,580,1200,32,94103,Regular Monday distribution
+2024-01-08,Eastside Center,Senior Meal Program,62,62,280,14,94601,
+2024-01-09,Westpark Pantry,Emergency Food Box,210,840,1800,45,94102,High demand week
+2024-01-10,Downtown Hub,Mobile Pantry,88,352,750,20,94103,
+2024-01-10,Eastside Center,Emergency Food Box,175,700,1500,38,94601,New volunteer team
+2024-01-15,Downtown Hub,Emergency Food Box,160,640,1350,35,94103,
+2024-01-15,Westpark Pantry,Senior Meal Program,55,55,240,12,94102,
+2024-01-16,Northside Clinic,Health Screening,90,,150,28,94107,Blood pressure + diabetes screening
+2024-01-17,Downtown Hub,Mobile Pantry,95,380,820,22,94103,
+2024-01-22,Eastside Center,Emergency Food Box,190,760,1620,41,94601,
+2024-01-22,Westpark Pantry,Emergency Food Box,230,920,1950,50,94102,Record week
+2024-01-23,Downtown Hub,Senior Meal Program,70,70,310,16,94103,
+2024-01-24,Northside Clinic,Health Screening,105,,175,32,94107,Added dental screening
+2024-01-29,Downtown Hub,Emergency Food Box,155,620,1300,33,94103,
+2024-01-29,Eastside Center,Senior Meal Program,65,65,290,15,94601,
+2024-02-05,Westpark Pantry,Emergency Food Box,220,880,1870,48,94102,
+2024-02-05,Downtown Hub,Mobile Pantry,100,400,860,24,94103,
+2024-02-06,Eastside Center,Emergency Food Box,185,740,1580,40,94601,
+2024-02-12,Northside Clinic,Health Screening,98,,162,30,94107,
+2024-02-12,Downtown Hub,Emergency Food Box,148,592,1240,31,94103,
+2024-02-13,Westpark Pantry,Senior Meal Program,58,58,255,13,94102,
+2024-02-19,Eastside Center,Emergency Food Box,200,800,1700,43,94601,
+2024-02-19,Downtown Hub,Mobile Pantry,92,368,790,21,94103,
+2024-02-26,Westpark Pantry,Emergency Food Box,215,860,1820,47,94102,
+2024-02-26,Downtown Hub,Senior Meal Program,68,68,300,15,94103,
+2024-03-04,Eastside Center,Emergency Food Box,178,712,1520,38,94601,Spring campaign start
+2024-03-04,Northside Clinic,Health Screening,112,,185,34,94107,
+2024-03-05,Downtown Hub,Emergency Food Box,165,660,1380,36,94103,
+2024-03-11,Westpark Pantry,Emergency Food Box,240,960,2040,52,94102,Spring surge
+2024-03-11,Eastside Center,Senior Meal Program,72,72,318,17,94601,
