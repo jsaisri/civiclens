@@ -4,6 +4,8 @@ CivicLens — FastAPI Backend Entry Point
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.utils.database import Base, engine
+from backend.api.models import dataset as dataset_models  # registers models with Base
 from backend.api.routes import upload
 
 app = FastAPI(
@@ -19,6 +21,10 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# Create all tables automatically on startup (safe — won't drop existing tables)
+Base.metadata.create_all(bind=engine)
 
 
 @app.get("/")
