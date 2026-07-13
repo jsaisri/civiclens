@@ -272,4 +272,4 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-*Built for the Claude Corps Fellowship Program by Ranjith Panjala*
+*Built for the Claude Corps Fellowship Program by Sai Sri Janagani*
